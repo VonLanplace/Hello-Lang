@@ -1,0 +1,5 @@
+salario = (float(input("Insira a Quantidade de horas trabalhadas: ")))
+salario *= (float(input("Insira o Valor por Hora: ")))
+salario -= (float(input("Insira o Valor do Desconto: ")))
+salario += (100*(int(input("Insira o Número de Dependentes: "))))
+print("O Salário será",salario,".")
