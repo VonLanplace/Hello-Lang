@@ -1,15 +1,25 @@
 use std::io;
 
 fn main() {
-    let num1 = input_i32("Insira o primeiro número: ");
-    let num2 = input_i32("Insira o segundo número: ");
-    if num1 > num2 {
-        println!("O maior valor foi o primeiro {}.", num1);
-    } else if num1 < num2 {
-        println!("O maior valor foi o segundo {}.", num2);
-    } else {
-        println!("Os valores são iguais.");
+    let mut vector = [0; 50];
+    let mut media = 0;
+    let mut soma = 0;
+    let mut j = 0;
+    for i in 0..vector.len() {
+        vector[i] = input_i32("Insira um númeor inteiro: ");
+        if vector[i] % 2 == 1 {
+            soma += vector[i];
+        }
+        if 10 < vector[i] && vector[i] < 200 {
+            media += vector[i];
+            j += 1;
+        }
     }
+    if j > 0 {
+        media /= j;
+    }
+    println!("A média dos valores entre 10 e 200 é {}.", media);
+    println!("A soma dos numeros ínpares é {}.", soma);
 }
 
 fn input_i32(texto: &str) -> i32 {
