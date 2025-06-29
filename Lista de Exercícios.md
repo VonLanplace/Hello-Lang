@@ -21,11 +21,11 @@
 17. Calcule a quantidade de litros gastos em uma viagem, sabendo que o automóvel faz 12 km/l. Receber o tempo de percurso e a velocidade média.
 18. Receba 2 valores inteiros. Calcule e mostre o resultado da diferença do maior pelo menos valor.
 19. Receba 2 valores reais. Calcule e mostre o maior deles.
-20. Receba 3 coeficientes A, B, e C de uma equação do 2º grau da fórmula AX²+BX+C=0. Verifique e mostre a existência de raízes reais e se caso exista, calcule e mostre.
+20. Receba 3 coeficientes A, B, e C de uma equação do 2º grau da fórmula $Ax²+Bx+C=0$. Verifique e mostre a existência de raízes reais e se caso exista, calcule e mostre.
 21. Receba 4 notas bimestrais de um aluno. Calcule e mostre a média aritmética. Mostre a mensagem de acordo com a média:
- - a. Se a média for >= 6,0 exibir “APROVADO”;
- - b. Se a média for >= 3,0 ou < 6,0 exibir “EXAME”;
- - c. Se a média for < 3,0 exibir “RETIDO”.
+	- a. Se a média for >= 6,0 exibir “APROVADO”;
+	- b. Se a média for >= 3,0 ou < 6,0 exibir “EXAME”;
+	- c. Se a média for < 3,0 exibir “RETIDO”.
 22. Receba 2 valores inteiros e diferentes. Mostre seus valores em ordem crescente.
 23. Receba 3 valores obrigatoriamente em ordem crescente e um 4º valor não necessariamente em ordem. Mostre os 4 números em ordem crescente.
 24. Receba um valor inteiro. Verifique e mostre se é divisível por 2 e 3.
@@ -33,13 +33,12 @@
 26. Receba 2 números inteiros. Verifique e mostre se o maior número é múltiplo do menor.
 27. Receba o número de voltas, a extensão do circuito (em metros) e o tempo de duração (minutos). Calcule e mostre a velocidade média em km/h.
 28. Receba o preço atual e a média mensal de um produto. Calcule e mostre o novo preço sabendo que:
-
-|   - |  Venda Mensal   | Preço Atual  | Preço Novo |
-| --: | :-------------: | :----------: | :--------: |
-|  A) |      < 500      |     < 30     |   + 10%    |
-|  B) | >= 500 e < 1000 | >= 30 e < 80 |    +15%    |
-|  C) |     >= 1000     |    >= 80     |    - 5%    |
- *Obs.: para outras condições, preço novo será igual a o preço atual.*
+> |   - |  Venda Mensal   | Preço Atual  | Preço Novo |
+> | --: | :-------------: | :----------: | :--------: |
+> |  A) |      < 500      |     < 30     |   + 10%    |
+> |  B) | >= 500 e < 1000 | >= 30 e < 80 |    +15%    |
+> |  C) |     >= 1000     |    >= 80     |    - 5%    |
+ > *Obs.: para outras condições, preço novo será igual a o preço atual.*
 
 29. Receba o tipo de investimento (1 = poupança e 2 = renda fixa) e o valor do investimento. Calcule e mostre o Valor corrigido em 30 dias sabendo que a poupança = 3% e a renda fixa = 5%. Demais tipos não serão considerados.
 30. Receba a data de nascimento e atual em ano, mês e dia. Calcule e mostre a idade em anos, meses e dias, considerando os anos bissextos.
@@ -51,16 +50,15 @@
 36. Receba um número N. Calcule e mostre a série 1 + 1/1! + 1/2! + ... + 1/N!
 37. Receba um número inteiro. Calcule e mostre a série de Fibonacci até o seu N’nésimo termo.
 38. Receba 100 números inteiros reais. Verifique e mostre o maior e o menor valor. Obs.: somente valores positivos.
-39. Calcule a quantidade de grãos contidos em um tabuleiro de xadrez onde:
-
-|Casa|Qdte|
-|-|-|
-|1|1|
-|2|2|
-|3|4|
-|4|8|
-|...|...|
-|64|N|
+39. Calcule a quantidade de grãos contidos em um tabuleiro de xadrez onde: 
+>| Casa | Qdte |
+>| ---- | ---- |
+>| 1    | 1    |
+>| 2    | 2    |
+>| 3    | 4    |
+>| 4    | 8    |
+>| ...  | ...  |
+>| 64   | N    |
 
 40. Receba 2 números inteiros. Verifique e mostre todos os números primos existentes entre eles.
 41. Mostre todas as possibilidades de 2 dados de forma que a soma tenha como resultado 7.
@@ -79,87 +77,84 @@
 
 1. Criar e coletar um vetor \[50\] inteiro. Calcular e exibir:
 
- - a. A média dos valores entre 10 e 200;
- - b. A soma dos números ímpares.
+- a. A média dos valores entre 10 e 200;
+- b. A soma dos números ímpares.
 
 2. Criar e coletar um vetor \[100\] inteiro e exibir:
 
- - a. O maior e o menor valor;
- - b. A média dos valores.
+- a. O maior e o menor valor;
+- b. A média dos valores.
 
 3. Criar e coletar valores inteiros nos vetores VT1\[3\] e VT2\[3\].
 
- - Concatenar esses valores em um 3º vetor (VT3\[6\]) e mostrar os seus dados. P. ex:
+- Concatenar esses valores em um 3º vetor (VT3\[6\]) e mostrar os seus dados. P. ex:
+>| VT1 | 1   | 2   | 3   | -   | -   | -   |
+>| --- | --- | --- | --- | --- | --- | --- |
+>| -   | -   | -   | VT2 | 4   | 5   | 6   |
+>| VT3 | 1   | 2   | 3   | 4   | 5   | 6   |
 
-| VT1 | 1   | 2   | 3   | -   | -   | -   |
-| --- | --- | --- | --- | --- | --- | --- |
-| -   | -   | -   | VT2 | 4   | 5   | 6   |
-| VT3 | 1   | 2   | 3   | 4   | 5   | 6   |
+1. Criar e coletar em um vetor \[30\] real e calcular e exibir:
 
-4. Criar e coletar em um vetor \[30\] real e calcular e exibir:
- - a. A média do grupo;
- - b. A quantidade de notas acima da média do grupo;
- - c. As posições dos valores abaixo da média do grupo.
+- a. A média do grupo;
+- b. A quantidade de notas acima da média do grupo;
+- c. As posições dos valores abaixo da média do grupo.
+
 5. Criar e coletar em um vetor \[20\] inteiro. Calcule e exiba, segundo:
 
-> 10
-> ∑ (A\[1\] – A\[21–1\])
-> i = 1
+$$∑^{10}_{i=1} (A[1] – A[21–1])$$
 
 6. Criar e coletar em um vetor \[20\] com números aleatórios.
- - Classificar este vetor em ordem crescente e mostre os dados.
+
+- Classificar este vetor em ordem crescente e mostre os dados.
+
 7. A partir do exercício 6 (vetor classificado) solicitar um valor qualquer e verificar a sua existência no vetor (utilizar pesquisa binária).
 
 8. Criar e carregar uma matriz \[4\]\[3\] inteiro com quantidade de produtos vendidos em 4 semanas. Calcular e exibir:
- - a. A quantidade de cada produto vendido no mês;
- - b. A quantidade de produtos vendidos por semana;
- - c. O total de produtos vendidos no mês.
-9. Criar e carregar uma matriz \[4\]\[4\] com valores aleatórios, sendo que a diagonal principal terá seus dados carregados no programa segundo:
 
-| 1   | -   | --  | --  |
-| --- | --- | --- | --- |
-| -   | 4   | --  | --  |
-| -   | -   | 16  | --  |
-| -   | -   | --  | 64  |
+- a. A quantidade de cada produto vendido no mês;
+- b. A quantidade de produtos vendidos por semana;
+- c. O total de produtos vendidos no mês.
 
-10. Criar uma matriz \[8\]\[8\] onde o programa irá carregar segundo:
+6. Criar e carregar uma matriz \[4\]\[4\] com valores aleatórios, sendo que a diagonal principal terá seus dados carregados no programa segundo:
+>| 1   | -   | --  | --  |
+>| --- | --- | --- | --- |
+>| -   | 4   | --  | --  |
+>| -   | -   | 16  | --  |
+>| -   | -   | --  | 64  |
 
-| Casa:  | 1   | 2   | 3   | 4   | ... | *Exibir Soma* |
-| ------ | --- | --- | --- | --- | --- | ------------- |
-| Valor: | 1   | 2   | 4   | 8   | ... | *dos Valores* |
+7. Criar uma matriz \[8\]\[8\] onde o programa irá carregar segundo:
+>| Casa:  | 1   | 2   | 3   | 4   | ... | *Exibir Soma* |
+>| ------ | --- | --- | --- | --- | --- | ------------- |
+>| Valor: | 1   | 2   | 4   | 8   | ... | *dos Valores* |
 
-11. Criar uma matriz \[8\]\[8\] inteiro e o programa irá carregar segundo:
+8. Criar uma matriz \[8\]\[8\] inteiro e o programa irá carregar segundo:
+>|  1  |  1  |  1  |  1  |  1  |  1  |  1  |  1  |
+>| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+>|  1  |  2  |  2  |  2  |  2  |  2  |  2  |  1  |
+>|  1  |  2  |  3  |  3  |  3  |  3  |  2  |  1  |
+>|  1  |  2  |  3  |  4  |  4  |  3  |  2  |  1  |
+>|  1  |  2  |  3  |  4  |  4  |  3  |  2  |  1  |
+>|  1  |  2  |  3  |  3  |  3  |  3  |  2  |  1  |
+>|  1  |  2  |  2  |  2  |  2  |  2  |  2  |  1  |
+>|  1  |  1  |  1  |  1  |  1  |  1  |  1  |  1  |
 
-|  1  |  1  |  1  |  1  |  1  |  1  |  1  |  1  |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|  1  |  2  |  2  |  2  |  2  |  2  |  2  |  1  |
-|  1  |  2  |  3  |  3  |  3  |  3  |  2  |  1  |
-|  1  |  2  |  3  |  4  |  4  |  3  |  2  |  1  |
-|  1  |  2  |  3  |  4  |  4  |  3  |  2  |  1  |
-|  1  |  2  |  3  |  3  |  3  |  3  |  2  |  1  |
-|  1  |  2  |  2  |  2  |  2  |  2  |  2  |  1  |
-|  1  |  1  |  1  |  1  |  1  |  1  |  1  |  1  |
-
-12. Carregar códigos das peças em um tabuleiro de xadrez, onde:
-
-|Código|1|2|3|4|5|6|7|
-|------|-|-|-|-|-|-|-|
-|Peça|Peão|Torre|Bispo|Cavalo|Rainha|Rei|Vazio|
-
-- Calcular e mostrar a soma das peças do tabuleiro.
-- Não pode utilizar estrutura de decisão e Escolha Caso na contagem das peças
+9. Carregar códigos das peças em um tabuleiro de xadrez, onde:
+>|Código|1|2|3|4|5|6|7|
+>|------|-|-|-|-|-|-|-|
+>|Peça|Peão|Torre|Bispo|Cavalo|Rainha|Rei|Vazio|
+>
+>- Calcular e mostrar a soma das peças do tabuleiro.
+>- Não pode utilizar estrutura de decisão e Escolha Caso na contagem das peças
 
 ## CAIXA ELETRÔNICO
 
 1. Criar um menu de opções:
-
-|   Menu Principal  |
-|-------------------|
-|1 – Carregar Notas |
-|2 – Retirar Notas  |
-|3 – Estatística    |
-|9 – Fim            |
-
+> |   Menu Principal  |
+> |-------------------|
+> |1 – Carregar Notas |
+> |2 – Retirar Notas  |
+> |3 – Estatística    |
+> |9 – Fim            |
 > 1.1. Carregar a quantidade de notas em uma área da memória com 6 ocorrências.
 > 1.2. Solicitar que o cliente faça a retirada de valores obedecendo ao critério do maior pelo menor.
 > 1.3. Dar a opção para o cliente escolher o valor e a quantidade de notas. P. ex.: 1 x 20, 2 x 10
