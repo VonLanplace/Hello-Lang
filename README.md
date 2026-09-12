@@ -20,7 +20,7 @@ O **Hello-Lang** serve como um laboratório de prática e referência rápida pa
 
 ## 🛠️ Linguagens e Tecnologias
 
-* *Linguagens presentes no repositório:* [Python, JavaScript, C++, Java, Rust, entre outras conforme o avanço dos exercícios]
+* *Linguagens presentes no repositório:* [Python, C, Java, Rust, entre outras conforme o avanço dos exercícios]
 * *Ferramentas de Apoio:* Compiladores e interpretadores nativos de cada tecnologia utilizada.
 
 ---
